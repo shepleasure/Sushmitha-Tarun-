@@ -1,0 +1,66 @@
+@import "normalize.css";
+@font-face {
+    font-family: frente;
+    src: url("frente.otf");
+}
+
+$brown: #373027;
+$red: #FE1F2E;
+
+body {
+	background-image: url("images/bg.png");
+	background-size: cover;
+}
+.banner {
+	position: relative;
+	z-index: 3;
+}
+.slider {
+	height: 70em;
+}
+#myCarousel {
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	box-shadow: 6px 6px 15px #8E7C69;
+}
+#navigation {
+	ul {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	    text-align: center;
+	  }
+	li { 
+		display: inline-block; 
+	}
+	a {
+	    display: block;
+	    padding: 1em 3em;
+	    text-decoration: none;
+	    font-family: frente;
+	    color: $brown;
+	    font-size: 26px;
+	    font-weight: 700;
+	    &:hover {
+	      color: $red;   
+	    }
+	    &:active {
+	      color: $red;
+		}
+	}
+}
+#couple, #design{
+	width: 30%;
+	margin: auto;
+}
+.name p {
+	font-family: frente;
+	color: $brown;
+	font-size: 70px;
+}
+#footer {
+	margin-top: 50px;
+}
+
+
