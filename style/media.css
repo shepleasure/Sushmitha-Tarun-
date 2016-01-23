@@ -14,7 +14,9 @@
 	width: 60%;
 	margin: auto;
 }
-
+.modal-body {
+	text-align: center;
+}
 }
 @media only screen and (min-width : 481px) and (max-width : 768px) {
 .slider {
@@ -31,6 +33,9 @@
 	width: 40%;
 	margin: auto;
 }
+.modal-body {
+	text-align: center;
+}
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 769px) and (max-width : 992px) {
@@ -42,7 +47,7 @@
 	font-size: 22px;
 }
 .name p {
-	font-size: 50px;
+	font-size: 60px;
 }
 #couple, #design{
 	width: 40%;
@@ -59,7 +64,7 @@
 	font-size: 24px;
 }
 .name p {
-	font-size: 50px;
+	font-size: 60px;
 }
 #couple, #design{
 	width: 40%;
@@ -76,7 +81,7 @@
 	font-size: 26px;
 }
 .name p {
-	font-size: 50px;
+	font-size: 70px;
 }
 #couple, #design{
 	width: 40%;
@@ -93,7 +98,7 @@
 	font-size: 26px;
 }
 .name p {
-	font-size: 50px;
+	font-size: 70px;
 }
 #couple, #design{
 	width: 40%;
