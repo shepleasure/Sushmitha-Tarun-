@@ -2,6 +2,9 @@
 @font-face {
   font-family: frente;
   src: url("frente.otf"); }
+@font-face {
+  font-family: caviar;
+  src: url("CaviarDreams.ttf"); }
 body {
   background-image: url("images/bg.png");
   background-size: cover; }
@@ -50,5 +53,22 @@ body {
 
 #footer {
   margin-top: 50px; }
+
+h3 {
+  font-family: caviar; }
+
+.modal-header {
+  font-family: frente;
+  color: #FE1F2E; }
+
+.modal-body {
+  background-image: url("images/modal-bg.png");
+  background-size: cover; }
+  .modal-body h3 {
+    font-weight: 600;
+    color: #FE1F2E; }
+  .modal-body p {
+    font-family: caviar;
+    font-weight: 600; }
 
 /*# sourceMappingURL=main.css.map */
